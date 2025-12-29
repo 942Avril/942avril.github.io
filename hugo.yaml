@@ -1,0 +1,7 @@
+baseURL: https://942avril.github.io/
+languageCode: en-us
+title: JaylinZh Blog
+theme: ["PaperMod"]
+params:
+   assets:
+      disableFingerprinting: true
