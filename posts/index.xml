@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on JaylinZh Blog</title>
-    <link>https://942avril.github.io/post/</link>
+    <link>https://942avril.github.io/posts/</link>
     <description>Recent content in Posts on JaylinZh Blog</description>
     <generator>Hugo -- 0.153.4</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 Dec 2025 02:31:29 +0800</lastBuildDate>
-    <atom:link href="https://942avril.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Dec 2025 10:38:30 +0800</lastBuildDate>
+    <atom:link href="https://942avril.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test</title>
-      <link>https://942avril.github.io/post/test/</link>
-      <pubDate>Tue, 30 Dec 2025 02:31:29 +0800</pubDate>
-      <guid>https://942avril.github.io/post/test/</guid>
+      <title>DOTS</title>
+      <link>https://942avril.github.io/posts/learnunity/dots/</link>
+      <pubDate>Tue, 30 Dec 2025 10:38:30 +0800</pubDate>
+      <guid>https://942avril.github.io/posts/learnunity/dots/</guid>
       <description></description>
     </item>
   </channel>
