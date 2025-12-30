@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto" data-theme="auto">
 
-<head>
-	<meta name="generator" content="Hugo 0.153.4"><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>JaylinZh Blog</title>
-
-<meta name="description" content="">
+<title>DOTS | JaylinZh Blog</title>
+<meta name="keywords" content="Unity, DOTS, ECS">
+<meta name="description" content="[[ECS]]">
 <meta name="author" content="">
-<link rel="canonical" href="https://942avril.github.io/">
+<link rel="canonical" href="https://942avril.github.io/posts/learnunity/dots/unity-dots%E5%AD%A6%E4%B9%A0%E7%9B%AE%E5%BD%95/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://942avril.github.io/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://942avril.github.io/favicon-16x16.png">
@@ -19,8 +18,7 @@
 <link rel="mask-icon" href="https://942avril.github.io/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="https://942avril.github.io/index.xml" title="rss">
-<link rel="alternate" hreflang="en" href="https://942avril.github.io/">
+<link rel="alternate" hreflang="en" href="https://942avril.github.io/posts/learnunity/dots/unity-dots%E5%AD%A6%E4%B9%A0%E7%9B%AE%E5%BD%95/">
 <noscript>
     <style>
         #theme-toggle,
@@ -72,30 +70,74 @@
         document.querySelector("html").dataset.theme = 'light';
     }
 
-</script><meta property="og:url" content="https://942avril.github.io/">
+</script><meta property="og:url" content="https://942avril.github.io/posts/learnunity/dots/unity-dots%E5%AD%A6%E4%B9%A0%E7%9B%AE%E5%BD%95/">
   <meta property="og:site_name" content="JaylinZh Blog">
-  <meta property="og:title" content="JaylinZh Blog">
+  <meta property="og:title" content="DOTS">
+  <meta property="og:description" content="[[ECS]]">
   <meta property="og:locale" content="en-us">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-12-30T10:38:30+08:00">
+    <meta property="article:modified_time" content="2025-12-30T10:38:30+08:00">
+    <meta property="article:tag" content="Unity">
+    <meta property="article:tag" content="DOTS">
+    <meta property="article:tag" content="ECS">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="JaylinZh Blog">
-<meta name="twitter:description" content="">
+<meta name="twitter:title" content="DOTS">
+<meta name="twitter:description" content="[[ECS]]">
+
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "JaylinZh Blog",
-  "url": "https://942avril.github.io/",
-  "description": "",
-  "logo": "https://942avril.github.io/favicon.ico",
-  "sameAs": [
-      
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://942avril.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "DOTS",
+      "item": "https://942avril.github.io/posts/learnunity/dots/unity-dots%E5%AD%A6%E4%B9%A0%E7%9B%AE%E5%BD%95/"
+    }
   ]
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "DOTS",
+  "name": "DOTS",
+  "description": "[[ECS]]\n",
+  "keywords": [
+    "Unity", "DOTS", "ECS"
+  ],
+  "articleBody": "[[ECS]]\n",
+  "wordCount" : "1",
+  "inLanguage": "en",
+  "datePublished": "2025-12-30T10:38:30+08:00",
+  "dateModified": "2025-12-30T10:38:30+08:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://942avril.github.io/posts/learnunity/dots/unity-dots%E5%AD%A6%E4%B9%A0%E7%9B%AE%E5%BD%95/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "JaylinZh Blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://942avril.github.io/favicon.ico"
+    }
+  }
+}
+</script>
 </head>
-<body class="list" id="top">
+<body id="top">
     <header class="header">
     <nav class="nav">
         <div class="logo">
@@ -127,38 +169,36 @@
         </ul>
     </nav>
 </header>
-<main class="main"> 
+<main class="main">
 
-<article class="first-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">DOTS
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      DOTS
       <span class="entry-hint" title="Draft">
-        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+        <svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" fill="currentColor">
           <path
             d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
         </svg>
       </span>
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>[[ECS]]
-</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-12-30 10:38:30 +0800 +0800'>December 30, 2025</span></footer>
-  <a class="entry-link" aria-label="post link to DOTS" href="https://942avril.github.io/posts/learnunity/dots/unity-dots%E5%AD%A6%E4%B9%A0%E7%9B%AE%E5%BD%95/"></a>
-</article>
+    </h1>
+    <div class="post-meta"><span title='2025-12-30 10:38:30 +0800 +0800'>December 30, 2025</span>
 
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>这里是ECS学习记录
-</p>
+</div>
+  </header> 
+  <div class="post-content"><p>[[ECS]]</p>
+
+
   </div>
-  <footer class="entry-footer"></footer>
-  <a class="entry-link" aria-label="post link to " href="https://942avril.github.io/posts/learnunity/dots/ecs/"></a>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://942avril.github.io/tags/unity/">Unity</a></li>
+      <li><a href="https://942avril.github.io/tags/dots/">DOTS</a></li>
+      <li><a href="https://942avril.github.io/tags/ecs/">ECS</a></li>
+    </ul>
+  </footer>
 </article>
     </main>
     
