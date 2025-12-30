@@ -6,8 +6,15 @@
     <description>Recent content in Posts on JaylinZh Blog</description>
     <generator>Hugo -- 0.153.5</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 Dec 2025 14:59:52 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 30 Dec 2025 23:59:09 +0800</lastBuildDate>
     <atom:link href="https://942avril.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Burst学习目录</title>
+      <link>https://942avril.github.io/posts/learnunity/burst/burst%E5%AD%A6%E4%B9%A0%E7%9B%AE%E5%BD%95/</link>
+      <pubDate>Tue, 30 Dec 2025 23:59:09 +0800</pubDate>
+      <guid>https://942avril.github.io/posts/learnunity/burst/burst%E5%AD%A6%E4%B9%A0%E7%9B%AE%E5%BD%95/</guid>
+      <description></description>
+    </item>
     <item>
       <title>ECS</title>
       <link>https://942avril.github.io/posts/learnunity/dots/ecs/ecs%E5%AD%A6%E4%B9%A0%E7%9B%AE%E5%BD%95/</link>
@@ -20,7 +27,8 @@
       <link>https://942avril.github.io/posts/learnunity/dots/unity-dots%E5%AD%A6%E4%B9%A0%E7%9B%AE%E5%BD%95/</link>
       <pubDate>Tue, 30 Dec 2025 10:38:30 +0800</pubDate>
       <guid>https://942avril.github.io/posts/learnunity/dots/unity-dots%E5%AD%A6%E4%B9%A0%E7%9B%AE%E5%BD%95/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://942avril.github.io/posts/learnunity/dots/ecs/ecs%E5%AD%A6%E4%B9%A0%E7%9B%AE%E5%BD%95/&#34;&gt;ECS学习笔记目录&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://942avril.github.io/posts/learnunity/dots/ecs/ecs%E5%AD%A6%E4%B9%A0%E7%9B%AE%E5%BD%95/&#34;&gt;ECS学习笔记目录&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://942avril.github.io/posts/learnunity/burst/burst%E5%AD%A6%E4%B9%A0%E7%9B%AE%E5%BD%95/&#34;&gt;Burst学习笔记目录&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
