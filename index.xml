@@ -13,7 +13,10 @@
       <link>https://942avril.github.io/posts/learncpp/c&#43;&#43;%E4%B8%AD%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%E5%A4%9A%E8%BF%94%E5%9B%9E%E5%80%BC/</link>
       <pubDate>Fri, 02 Jan 2026 12:39:47 +0800</pubDate>
       <guid>https://942avril.github.io/posts/learncpp/c&#43;&#43;%E4%B8%AD%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%E5%A4%9A%E8%BF%94%E5%9B%9E%E5%80%BC/</guid>
-      <description>&lt;h2 id=&#34;为什么这个页面无法显示呢&#34;&gt;为什么这个页面无法显示呢？&lt;/h2&gt;</description>
+      <description>&lt;ol&gt;
+&lt;li&gt;采用返回结构体的方式。&lt;/li&gt;
+&lt;li&gt;采用方法参数传引用，在方法体里对引用进行修改。&lt;/li&gt;
+&lt;/ol&gt;</description>
     </item>
     <item>
       <title>学习C&#43;&#43;</title>
