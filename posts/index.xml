@@ -6,16 +6,27 @@
     <description>Recent content in Posts on JaylinZh小屋</description>
     <generator>Hugo -- 0.154.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 02 Jan 2026 12:39:47 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 02 Jan 2026 19:21:44 +0800</lastBuildDate>
     <atom:link href="https://942avril.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>C&#43;&#43;中的模板</title>
+      <link>https://942avril.github.io/posts/learncpp/c&#43;&#43;%E4%B8%AD%E7%9A%84%E6%A8%A1%E6%9D%BF/</link>
+      <pubDate>Fri, 02 Jan 2026 19:21:44 +0800</pubDate>
+      <guid>https://942avril.github.io/posts/learncpp/c&#43;&#43;%E4%B8%AD%E7%9A%84%E6%A8%A1%E6%9D%BF/</guid>
+      <description>&lt;h2 id=&#34;什么是泛型&#34;&gt;什么是泛型？&lt;/h2&gt;
+&lt;p&gt;在其他语言如C#，Java会称为泛型。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>C&#43;&#43;中如何处理多返回值</title>
       <link>https://942avril.github.io/posts/learncpp/c&#43;&#43;%E4%B8%AD%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%E5%A4%9A%E8%BF%94%E5%9B%9E%E5%80%BC/</link>
       <pubDate>Fri, 02 Jan 2026 12:39:47 +0800</pubDate>
       <guid>https://942avril.github.io/posts/learncpp/c&#43;&#43;%E4%B8%AD%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%E5%A4%9A%E8%BF%94%E5%9B%9E%E5%80%BC/</guid>
       <description>&lt;ol&gt;
-&lt;li&gt;采用返回结构体的方式。&lt;/li&gt;
+&lt;li&gt;采用返回结构体的方式，采用大括号初始化并返回。&lt;/li&gt;
 &lt;li&gt;采用方法参数传引用，在方法体里对引用进行修改。&lt;/li&gt;
+&lt;li&gt;采用方法参数传指针的方式。&lt;/li&gt;
+&lt;li&gt;使用std::array或std::vector，std::array效率更高。&lt;/li&gt;
+&lt;li&gt;使用std::tuple。&lt;/li&gt;
 &lt;/ol&gt;</description>
     </item>
     <item>
